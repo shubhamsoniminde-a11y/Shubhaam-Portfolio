@@ -1,0 +1,205 @@
+{
+  "basics": {
+    "name": "Shubham Soniminde",
+    "label": "Product Manager",
+    "email": "shubham.soniminde@gmail.com",
+    "phone": "+919637069644",
+    "location": "[address]",
+    "summary": "Experienced Product Manager with a proven track record in driving product strategy, optimizing performance through data-driven insights, and leading cross-functional teams to deliver high-impact features in the gaming and edtech sectors.",
+    "links": [
+      { "label": "Portfolio", "url": "https://fuschia-side-c76.notion.site/Product-Workfolio-c7f3293d7a114ec0ab3c5b9c6d337e83?pvs=143" }
+    ],
+    "personal_details": {
+      "passport": "[redacted]",
+      "work_permit": "Indian",
+      "dob": "[redacted]",
+      "place_of_birth": "Sangli, India",
+      "nationality": "Indian"
+    }
+  },
+  "experience": [
+    {
+      "company": "ENTAIN COMPTECH INDIA PRIVATE LIMITED",
+      "location": "PUNE, INDIA",
+      "role": "PRODUCT MANAGER",
+      "dates": "12/2024 – CURRENT",
+      "highlights": [
+        "Defined and executed product strategy & roadmaps, aligning with business goals and prioritizing high-impact features, driving measurable improvements in customer engagement and retention.",
+        "Leveraged customer insights & market research (competitive benchmarking, data analytics, user feedback) to identify opportunities, resulting in improved product adoption across multiple markets.",
+        "Drove end-to-end product delivery, collaborating with engineering, design, compliance, and marketing teams to launch features on time, reducing delivery delays.",
+        "Optimized product performance by monitoring KPIs (retention, engagement, conversion) and running A/B tests, leading to a lift in user engagement and a measurable increase in conversion rates.",
+        "Embedded compliance & responsible gaming principles into product development, ensuring 100% regulatory alignment across jurisdictions while maintaining a safe digital experience.",
+        "Strengthened stakeholder alignment by translating complex business and technical requirements into actionable deliverables and presenting progress and KPIs to senior leadership.",
+        "Leveraged Amazon Q to deliver key KRAs by integrating workflows across multiple MCPs (Jira, Confluence, Figma), streamlining the SDLC, enhancing cross-functional collaboration, and reducing project turnaround times."
+      ]
+    },
+    {
+      "company": "IXSIGHT TECHNOLOGIES PRIVATE LIMITED",
+      "location": "PUNE, INDIA",
+      "role": "ASSOCIATE PRODUCT MANAGER",
+      "dates": "01/2023 – 11/2024",
+      "highlights": [
+        "Suggested Product Enhancements based on customer insights and needs to improve the UX",
+        "Plan QA controls with the help of testers",
+        "Coordinate with the engineering department to deliver functional solutions and develop PRDs and BRDs, collaborating with different departments",
+        "Conduct research to identify customer needs and market gaps",
+        "Prioritize the implementation of new features and set specific timelines",
+        "Liaise with the Marketing department to ensure proper positioning of new products/features",
+        "Analyze competition"
+      ]
+    },
+    {
+      "company": "PRODIGY MATH GAME INDIA PRIVATE LIMITED",
+      "location": "PUNE, INDIA",
+      "role": "ASSOCIATE PRODUCT MANAGER",
+      "dates": "08/2021 – 11/2022",
+      "highlights": [
+        "Worked cross-functionally with the Product, Engineering, Design, Marketing, Customer Success, and Sales teams",
+        "Analyzed the edtech industry for campaign insights; created PRDs for product strategy refinement",
+        "Analyze consumer research data and record Product defects.",
+        "Coordinate findings with the Product Team and align them with business goals.",
+        "Train internal departments on new Product features and provide support to customers.",
+        "Develop efficient customer communication and feedback channels."
+      ]
+    },
+    {
+      "company": "WHITEHAT EDUCATION TECHNOLOGIES PRIVATE LIMITED",
+      "location": "MUMBAI, INDIA",
+      "role": "MARKETING MANAGER",
+      "dates": "10/2020 – 07/2021",
+      "highlights": [
+        "Develop strategies and tactics to get the word out about our company and drive qualified traffic to our front door",
+        "Deploy successful marketing campaigns and own their implementation from ideation to execution",
+        "Build strategic relationships and partner with key industry players, agencies and vendors",
+        "Measure and report on the performance of marketing campaigns, gain insight and assess against goals",
+        "Analyze consumer behavior and adjust email and advertising campaigns accordingly"
+      ]
+    },
+    {
+      "company": "GEOX",
+      "location": "LONDON, UNITED KINGDOM",
+      "role": "MARKETING ASSOCIATE",
+      "dates": "06/2019 – 07/2020",
+      "highlights": [
+        "Manage daily administrative tasks to ensure the Marketing department runs smoothly",
+        "Conduct market research to identify new opportunities",
+        "Create reports on marketing and sales metrics, like conversion rates",
+        "Keep organized records of marketing metrics and results of past campaigns",
+        "Monitor competitors' marketing activities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Coventry University, London",
+      "degree": "MASTER OF BUSINESS ADMINISTRATION",
+      "location": "London, United Kingdom",
+      "dates": "05/2018 – 10/2019",
+      "field": "Management and administration, Marketing and advertising",
+      "level": "EQF level 7",
+      "url": "https://www.coventry.ac.uk/london/"
+    },
+    {
+      "institution": "S.P. College",
+      "degree": "BACHELOR OF COMMERCE",
+      "location": "Pune, India",
+      "dates": "08/2013 – 10/2016",
+      "field": "Accounting and taxation, Finance, banking and insurance, Business, administration and law",
+      "level": "EQF level 6",
+      "url": "https://www.spcollegepune.ac.in/"
+    }
+  ],
+  "skills": [
+    "Product Strategy",
+    "Roadmap Planning",
+    "A/B Testing",
+    "Data Analytics",
+    "Agile/Scrum",
+    "Jira & Confluence",
+    "Figma",
+    "PRD & BRD Writing",
+    "Stakeholder Management",
+    "Cross-functional Leadership",
+    "Customer Research",
+    "KPI Monitoring"
+  ],
+  "languages": [
+    { "language": "Hindi", "proficiency": "Mother tongue" },
+    { "language": "English", "level": "C2 (Proficient)" },
+    { "language": "German", "level": "A1 (Basic)" }
+  ],
+  "certifications": [
+    "Product Management Launchpad - Airtribe",
+    "Google Analytics",
+    "SAP - FICO"
+  ],
+  "about": "As a seasoned Product Manager with 6 years of experience, including 2 years in product management, I bring a unique blend of product marketing expertise and strategic vision. My journey spans across fintech and various industries, where I've successfully launched and scaled products for both startups and established companies. I thrive on solving complex problems and delivering innovative solutions that drive user engagement and business growth.",
+  "hobbies": ["Playing Musical Instruments", "Working out in the Gym", "Playing Cricket", "Driving"],
+  "projects": [
+    {
+      "title": "Transaction History Phase 1",
+      "company": "Entain",
+      "type": "Professional",
+      "tags": ["Product Strategy", "Regulatory Compliance", "Data Architecture"],
+      "description": "Led the design and launch of an enhanced transaction visibility feature across all US gaming labels. Delivered comprehensive transaction records for casino, sports betting, deposits, and withdrawals with wallet bucket transparency and 6-month browsing history.",
+      "impact": "Reduced support tickets by 35%, cut regulatory inquiry response time by 60%, and projected $2.3M annual savings from fraud prevention."
+    },
+    {
+      "title": "Casino Wallet & Transaction Architecture",
+      "company": "Entain",
+      "type": "Professional",
+      "tags": ["System Design", "Multi-Jurisdiction", "Compliance"],
+      "description": "Defined the product requirements for the PPAC platform's casino transaction flow and wallet management system. Designed bucket-based fund segregation (freeCash, bonusWins, depositRestricted) with jurisdiction-specific rules for US and international markets.",
+      "impact": "Achieved 100% regulatory alignment across jurisdictions, enabled multi-vendor support, and established a scalable architecture for market expansion."
+    },
+    {
+      "title": "AI-Powered SDLC Optimization",
+      "company": "Entain",
+      "type": "Professional",
+      "tags": ["AI/Automation", "Amazon Q", "Developer Productivity"],
+      "description": "Integrated Amazon Q across the product development lifecycle, connecting Jira, Confluence, and Figma workflows via MCPs. Automated sprint reporting, code reviews, and cross-functional collaboration processes.",
+      "impact": "Reduced project turnaround times and streamlined cross-functional collaboration across engineering, design, and product teams."
+    },
+    {
+      "title": "Uncovering Growth Opportunities at Instagram",
+      "company": "Case Study",
+      "type": "Case Study",
+      "tags": ["Growth Loops", "RICE Framework", "User Acquisition"],
+      "description": "Analyzed Instagram's viral, content, and paid growth loops to identify expansion opportunities. Proposed 5 epics including streamlined external sharing, sharing incentives, optimized onboarding for referred users, enhanced algorithm personalization, and user feedback integration.",
+      "impact": "Prioritized epics using RICE framework — top-scored Epic 1 (Streamline External Sharing, 8.0) and Epic 4 (Algorithm Personalization, 7.5) for maximum reach and engagement lift.",
+      "link": "https://gamma.app/docs/Uncovering-Growth-Opportunities-at-Instagram-qrpemudmn5ijz8t"
+    },
+    {
+      "title": "Personalized Learning Recommendation System",
+      "company": "Case Study — Coursera/edX",
+      "type": "Case Study",
+      "tags": ["Recommendation Engine", "ML/AI", "EdTech", "System Architecture"],
+      "description": "Designed a hybrid recommendation system combining collaborative filtering, content-based filtering, and knowledge-based approaches for an online education platform. Defined user personas (learners, content creators, admins), system architecture with adaptive e-learning layers, and multi-channel delivery via in-app, email, and push notifications.",
+      "impact": "Targeted 25% increase in user engagement, 30% improvement in course completion rates, and 20% boost in user satisfaction scores."
+    },
+    {
+      "title": "Fitness App — 1-Pager Brief & Wireframes",
+      "company": "Case Study",
+      "type": "Case Study",
+      "tags": ["Product Brief", "Wireframing", "UX Design", "Figma"],
+      "description": "Created a comprehensive 1-pager product brief and low-fidelity wireframes for a personalized fitness app. Defined objectives, success criteria, user flows (onboarding, home screen, workout, progress tracking, profile), target audience segmentation, and scope boundaries.",
+      "impact": "Targeted 50% increase in DAU within 6 months, 70% retention after 3 months, 4.5-star app store rating, and 80% of users reporting fitness progress within 3 months."
+    },
+    {
+      "title": "Gaana — Root Cause Analysis (RCA)",
+      "company": "Case Study",
+      "type": "Case Study",
+      "tags": ["RCA", "User Research", "Competitive Analysis", "iOS"],
+      "description": "Investigated the decline of Gaana's App Store rating from 4.5 to 4 stars on iOS over 6 months. Conducted ratings analysis, external/internal factor analysis, user journey mapping, and competitive benchmarking against Spotify, JioSaavn, and Wynk.",
+      "impact": "Identified root causes: auto-play bugs, app crashes on older iPhones, unclear subscription model, slow customer service, and cumbersome onboarding. Proposed targeted fixes for technical issues, UX improvements, and subscription clarity."
+    },
+    {
+      "title": "Rapido — Supply Growth & Driver Safety Research",
+      "company": "Case Study",
+      "type": "Case Study",
+      "tags": ["User Research", "In-depth Interviews", "Supply-side Strategy"],
+      "description": "Conducted primary user research with 6 Rapido bike taxi drivers in Bangalore to understand harassment from local auto-rickshaw drivers causing supply growth slowdown. Identified 10 key insights including safety threats, lack of driver training, and inadequate complaint mechanisms.",
+      "impact": "Proposed 3 research-led product solutions: GoPro-style safety cameras on vehicles, SOS emergency button in the driver app, and structured driver training programs to improve retention and safety."
+    }
+  ]
+}
