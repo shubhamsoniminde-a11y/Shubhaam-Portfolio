@@ -21,17 +21,21 @@ const GithubIcon = ({ size = 20 }: { size?: number }) => (
 import resumeData from "@/data/resume.json";
 
 /* ── Animated counter ── */
-function AnimatedCounter({ value, suffix = "" }: { value: string; suffix?: string }) {
+function AnimatedCounter({ value }: { value: string }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  const numericPart = value.replace(/[^0-9.]/g, "");
-  const prefix = value.replace(/[0-9.]/g, "");
-  const isNumeric = numericPart.length > 0 && !isNaN(Number(numericPart));
-  const [display, setDisplay] = useState("0");
+  const [display, setDisplay] = useState(value);
+
+  // Extract leading prefix (like $), trailing suffix (like %+, +, M+), and the core number
+  const match = value.match(/^([^0-9]*)([0-9.]+)(.*)$/);
+  const prefix = match ? match[1] : "";
+  const numericStr = match ? match[2] : "";
+  const suffix = match ? match[3] : "";
+  const target = parseFloat(numericStr);
+  const isAnimatable = match && !isNaN(target);
 
   useEffect(() => {
-    if (!isInView || !isNumeric) return;
-    const target = parseFloat(numericPart);
+    if (!isInView || !isAnimatable) return;
     const duration = 1500;
     const steps = 40;
     const increment = target / steps;
@@ -42,13 +46,14 @@ function AnimatedCounter({ value, suffix = "" }: { value: string; suffix?: strin
         current = target;
         clearInterval(timer);
       }
-      setDisplay(target % 1 === 0 ? Math.floor(current).toString() : current.toFixed(1));
+      const displayNum = target % 1 === 0 ? Math.floor(current).toString() : current.toFixed(1);
+      setDisplay(`${prefix}${displayNum}${suffix}`);
     }, duration / steps);
     return () => clearInterval(timer);
-  }, [isInView, isNumeric, numericPart]);
+  }, [isInView, isAnimatable, target, prefix, suffix]);
 
-  if (!isNumeric) return <span ref={ref}>{value}</span>;
-  return <span ref={ref}>{isInView ? `${prefix}${display}${suffix}` : "0"}</span>;
+  if (!isAnimatable) return <span ref={ref}>{value}</span>;
+  return <span ref={ref}>{isInView ? display : `${prefix}0${suffix}`}</span>;
 }
 
 /* ── Stagger wrapper ── */
@@ -231,7 +236,7 @@ export default function Portfolio() {
                 className="p-6 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-blue-500/50 transition-all text-center group"
               >
                 <h5 className="text-3xl md:text-4xl font-bold text-white mb-1 group-hover:text-blue-400 transition-colors">
-                  <AnimatedCounter value={metric.value} suffix={metric.value.includes("+") ? "+" : metric.value.includes("$") ? "" : ""} />
+                  <AnimatedCounter value={metric.value} />
                 </h5>
                 <p className="text-blue-400 text-xs font-mono mb-2">{metric.label}</p>
                 <p className="text-zinc-600 text-xs leading-relaxed">{metric.description}</p>
@@ -466,8 +471,4 @@ export default function Portfolio() {
           <a href={resumeData.basics.social.github} target="_blank" rel="noopener noreferrer" className="text-zinc-600 hover:text-white transition-colors"><GithubIcon size={18} /></a>
           <a href={`mailto:${resumeData.basics.email}`} className="text-zinc-600 hover:text-blue-400 transition-colors"><Mail size={18} /></a>
         </div>
-        <p className="text-zinc-600 text-xs font-mono">© 2025 {resumeData.basics.name}. Built with Next.js & Framer Motion.</p>
-      </footer>
-    </main>
-  );
-}
+        <p className="text-zinc-600 text-xs font-mono">
