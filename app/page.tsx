@@ -471,9 +471,8 @@ export default function Portfolio() {
           <a href={resumeData.basics.social.github} target="_blank" rel="noopener noreferrer" className="text-zinc-600 hover:text-white transition-colors"><GithubIcon size={18} /></a>
           <a href={`mailto:${resumeData.basics.email}`} className="text-zinc-600 hover:text-blue-400 transition-colors"><Mail size={18} /></a>
         </div>
-        <p className="text-zinc-600 text-xs font-mono"><p className="text-zinc-600 text-xs font-mono">© 2025 {resumeData.basics.name}. Built with Next.js & Framer Motion.</p>
+        <p className="text-zinc-600 text-xs font-mono">&copy; 2025 {resumeData.basics.name}. Built with Next.js &amp; Framer Motion.</p>
       </footer>
     </main>
   );
 }
-
